@@ -1,6 +1,7 @@
 import java.util.Arrays;
 
 public class LeetCode238 {
+    /*Given an integer array nums, return an array answer such that answer[i] is equal to the product of all the elements of nums except nums[i].*/
     public static int[] productExceptSelf(int[] nums) {
         //Complexity O(n) but doesn't follow problem's instruction
         int[] newNums = new int[nums.length];

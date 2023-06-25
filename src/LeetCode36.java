@@ -1,6 +1,8 @@
 import java.util.ArrayList;
 
 public class LeetCode36 {
+    /*Determine if a 9 x 9 Sudoku board is valid.
+     * */
     private static final int sudokuSize = 9;
 
     public static boolean isValidSudoku(char[][] board) {

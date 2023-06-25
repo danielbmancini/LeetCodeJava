@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 
+/*Given an unsorted array of integers nums, return the length of the longest consecutive elements sequence.*/
 public class LeetCode128 { //incomplete
     public static int longestConsecutive(int[] nums) {
         ArrayList<Integer> arrayList = constructNums(nums);

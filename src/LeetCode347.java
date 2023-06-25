@@ -2,6 +2,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 
 public class LeetCode347 {
+    /*Given an integer array nums and an integer k, return the k most frequent elements. You may return the answer in any order.*/
     public static int[] topKFrequent(int[] nums, int k) {
         HashMap<Integer, Integer> hashMap = new HashMap<>();
         for (int i : nums) {

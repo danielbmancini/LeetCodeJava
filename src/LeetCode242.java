@@ -1,7 +1,6 @@
 import java.util.Arrays;
-import java.util.List;
-import java.util.stream.Collectors;
 
+/*Given two strings s and t, return true if t is an anagram of s, and false otherwise.*/
 public class LeetCode242 {
     public static boolean isAnagram(String s, String t) {
         char[] sk = s.toCharArray();

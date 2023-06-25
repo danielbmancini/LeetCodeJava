@@ -2,9 +2,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
-import java.util.stream.Collectors;
 
-public class LeetCode48 {
+/*Given an array of strings strs, group the anagrams together. You can return the answer in any order.*/
+public class LeetCode49 {
     public static String anagram(String s) {
         char[] sk = s.toCharArray();
         Arrays.sort(sk);

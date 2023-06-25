@@ -1,6 +1,9 @@
 import java.util.Stack;
 
 public class LeetCode20 {
+    /*
+    Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+    * */
     public static boolean isValid(String s) {
         Stack<Integer> stack = new Stack<>();
         if(s.length() == 1)
