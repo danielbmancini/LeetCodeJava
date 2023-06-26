@@ -6,15 +6,15 @@ public class LeetCode128 { //incomplete
         ArrayList<Integer> arrayList = constructNums(nums);
         ArrayList<Integer> records = new ArrayList<>();
 
-        while(!arrayList.isEmpty()){
+        while (!arrayList.isEmpty()) {
             int min = min(arrayList);
             ArrayList<Integer> sequence = new ArrayList<>();
 
-            while (sequence.isEmpty() || min - sequence.get(sequence.size() - 1) <= 1 && min - sequence.get(sequence.size() - 1) >= 0){
-                if(!sequence.isEmpty() && min - sequence.get(sequence.size() - 1) == 0){
+            while (sequence.isEmpty() || min - sequence.get(sequence.size() - 1) <= 1 && min - sequence.get(sequence.size() - 1) >= 0) {
+                if (!sequence.isEmpty() && min - sequence.get(sequence.size() - 1) == 0) {
                     ArrayList<Integer> temp = new ArrayList<>(arrayList);
                     temp.remove((Integer) min);
-                    if(!temp.isEmpty())
+                    if (!temp.isEmpty())
                         min = min(temp);
                     else
                         break;
@@ -24,11 +24,11 @@ public class LeetCode128 { //incomplete
                 } else if (min - sequence.get(sequence.size() - 1) >= 0) {
 
 
-
-                sequence.add(min);
-                arrayList.remove(arrayList.indexOf(min));
-                if(!arrayList.isEmpty())
-                min = min(arrayList);}
+                    sequence.add(min);
+                    arrayList.remove((Integer) min);
+                    if (!arrayList.isEmpty())
+                        min = min(arrayList);
+                }
 
             }
             System.out.println(sequence);
@@ -47,13 +47,13 @@ public class LeetCode128 { //incomplete
         return min;
     }
 
-    private static int max(ArrayList<Integer> arrayList){
+    private static int max(ArrayList<Integer> arrayList) {
         int max;
-        if(!arrayList.isEmpty())
+        if (!arrayList.isEmpty())
             max = arrayList.get(0);
         else
             return 0;
-        for(int num: arrayList)
+        for (int num : arrayList)
             if (num > max)
                 max = num;
 
@@ -70,6 +70,6 @@ public class LeetCode128 { //incomplete
     }
 
     public static void main(String[] args) {
-        System.out.println(longestConsecutive(new int[] {1,2,0,1}));
+        System.out.println(longestConsecutive(new int[]{1, 2, 0, 1}));
     }
 }
