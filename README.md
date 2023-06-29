@@ -1,3 +1,4 @@
+Autoria própria
 ## Índice de problemas e suas classes
 | Problema        | Classe                                      | Nome                               |
 |----------------|--------------------------------------------|-------------------------------------------|
