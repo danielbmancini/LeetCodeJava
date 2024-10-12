@@ -3,7 +3,10 @@ import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
 
-public class LeetCode274 {
+public class LeetCode274 { //H-Index
+    /*Dado um array de inteiros citações onde citations[i] é o número de citações que um pesquisador recebeu para seu iésimo artigo, retorne o h-index do pesquisador.
+
+De acordo com a definição de h-index na Wikipedia: O h-index é definido como o valor máximo de h tal que o pesquisador dado publicou pelo menos h artigos que foram citados pelo menos h vezes. */
     public static void main(String[] args) {
         LeetCode274 leetCode274 = new LeetCode274();
 

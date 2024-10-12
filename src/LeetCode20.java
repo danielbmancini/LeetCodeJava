@@ -1,8 +1,8 @@
 import java.util.Stack;
 
-public class LeetCode20 {
+public class LeetCode20 { //3Sum Closest
     /*
-    Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+    Dada uma string s contendo apenas os caracteres '(', ')', '{', '}', '[' e ']', determine se a string de entrada é válida.
     * */
     public static boolean isValid(String s) {
         Stack<Integer> stack = new Stack<>();

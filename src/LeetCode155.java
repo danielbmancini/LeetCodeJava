@@ -1,8 +1,21 @@
 import java.util.ArrayList;
 import java.util.Comparator;
 
-//Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
-public class LeetCode155 {
+//Projete uma pilha que suporte push, pop, top e recuperação do elemento mínimo em tempo constante.
+/*
+ * Projete uma pilha que suporte push, pop, top e recuperação do elemento mínimo em tempo constante.
+
+Implemente a classe MinStack:
+
+MinStack() inicializa o objeto da pilha.
+void push(int val) coloca o elemento val na pilha.
+void pop() remove o elemento no topo da pilha.
+int top() obtém o elemento do topo da pilha.
+int getMin() recupera o elemento mínimo na pilha.
+
+Você deve implementar uma solução com complexidade de tempo O(1) para cada função.
+ */
+public class LeetCode155 { //Min Stack
     ArrayList<Integer> arrayList;
     ArrayList<Integer> minimaList;
     public LeetCode155() {

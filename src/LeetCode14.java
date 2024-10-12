@@ -1,5 +1,5 @@
-public class LeetCode14 {
-    /*Write a function to find the longest common prefix string amongst an array of strings.*/
+public class LeetCode14 { //Longest Common Prefix
+    /*Escreva uma função para encontrar a maior string de prefixo comum entre uma matriz de strings.*/
     public static String longestCommonPrefix(String[] strs) {
         StringBuilder stringBuilder = new StringBuilder();
         int minLength = strs[0].length();

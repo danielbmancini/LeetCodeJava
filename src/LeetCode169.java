@@ -1,7 +1,12 @@
 import java.util.HashMap;
 import java.util.Random;
 
-public class LeetCode169 {
+public class LeetCode169 { //Majority Element
+    /*
+     * Dado um array nums de tamanho n, retorna o elemento majoritário.
+
+O elemento majoritário é o elemento que aparece mais de ⌊n / 2⌋ vezes. Você pode assumir que o elemento majoritário sempre existe no array.
+     */
     public static void main(String[] args) {
         LeetCode169 leetCode169 = new LeetCode169();
 

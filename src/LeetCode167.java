@@ -1,9 +1,9 @@
 import java.util.Arrays;
 
-public class LeetCode167 {
-    /*Given a 1-indexed array of integers numbers that is already sorted in non-decreasing order, find two numbers such that they add up to a specific target number. Let these two numbers be numbers[index1] and numbers[index2] where 1 <= index1 < index2 < numbers.length.
+public class LeetCode167 { //Two Sum II - Input Array Is Sorted
+   /*Dado um array indexado 1 de números inteiros que já está classificado em ordem não decrescente, encontre dois números tais que eles somem um número alvo específico. Sejam esses dois números numbers[index1] e numbers[index2] onde 1 <= index1 < index2 < numbers.length.
 
-Return the indices of the two numbers, index1 and index2, added by one as an integer array [index1, index2] of length 2.
+Retorne os índices dos dois números, index1 e index2, adicionados por um como um array inteiro [index1, index2] de comprimento 2.
 
 */
     public static int[] twoSum(int[] numbers, int target) {

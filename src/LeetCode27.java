@@ -1,9 +1,9 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class LeetCode27 {
-    /*Given an integer array nums and an integer val, remove all occurrences of val in nums in-place.
-    The order of the elements may be changed. Then return the number of elements in nums which are not equal to val.*/
+public class LeetCode27 { // Remove Element
+    /*Dado um array inteiro nums e um inteiro val, remova todas as ocorrências de val em nums no local.
+A ordem dos elementos pode ser alterada. Então retorne o número de elementos em nums que não são iguais a val.*/
     public static int removeElement(int[] nums, int val) {
         int count = 0;
 

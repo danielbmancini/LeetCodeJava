@@ -1,8 +1,8 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class LeetCode26 {
-    /*Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once*/
+public class LeetCode26 { //Remove Duplicates from Sorted Array
+    /*Dado um array inteiro nums classificado em ordem não decrescente, remova as duplicatas no local de forma que cada elemento único apareça apenas uma vez*/
     public static int removeDuplicates(int[] nums) {
         //int[] nums1 = Arrays.copyOf(nums,nums.length);
         int pointer = -101;

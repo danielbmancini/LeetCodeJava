@@ -1,9 +1,14 @@
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class LeetCode89 {
-    //Given an integer n, return any valid n-bit gray code sequence.
-   // #static Random rand = new Random();
+public class LeetCode89 { //Merge Sorted Array
+    /*
+     * Você recebe dois arrays inteiros nums1 e nums2, classificados em ordem não decrescente, e dois inteiros m e n, representando o número de elementos em nums1 e nums2, respectivamente.
+
+Mescle nums1 e nums2 em um único array classificado em ordem não decrescente.
+
+O array classificado final não deve ser retornado pela função, mas sim armazenado dentro do array nums1. Para acomodar isso, nums1 tem um comprimento de m + n, onde os primeiros m elementos denotam os elementos que devem ser mesclados, e os últimos n elementos são definidos como 0 e devem ser ignorados. nums2 tem um comprimento de n.
+     */
 
 
     public static List<String> grayCode(int n) {

@@ -1,4 +1,10 @@
-public class LeetCode55 {
+public class LeetCode55 { //Jump Game
+
+/*
+ * Você recebe um array inteiro nums. Você é inicialmente posicionado no primeiro índice do array, e cada elemento no array representa seu comprimento máximo de salto naquela posição.
+
+Retorne true se você puder atingir o último índice, ou false caso contrário.
+ */
     boolean reachable = false;
 
     public static void main(String[] args) {

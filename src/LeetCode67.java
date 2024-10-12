@@ -1,7 +1,6 @@
 /*
     Add Binary
-    Given two binary strings a and b, return their sum as a binary string
-    04/2020
+    Dadas duas strings binárias a e b, retorne sua soma como uma string binária
  */
 
 public class LeetCode67 {

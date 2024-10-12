@@ -1,9 +1,10 @@
 import java.util.Arrays;
 
-public class LeetCode88 {
-    /*You are given two integer arrays nums1 and nums2, sorted in non-decreasing order, and two integers m and n, representing the number of elements in nums1 and nums2 respectively.
+public class LeetCode88 { //Merge Sorted Array
 
-    Merge nums1 and nums2 into a single array sorted in non-decreasing order.
+    /*Você recebe dois arrays inteiros nums1 e nums2, classificados em ordem não decrescente, e dois inteiros m e n, representando o número de elementos em nums1 e nums2, respectivamente.
+
+Mescle nums1 e nums2 em um único array classificado em ordem não decrescente.
 */
     public static void merge(int[] nums1, int m, int[] nums2, int n) {
 

@@ -1,9 +1,9 @@
 import java.util.Stack;
 
 public class LeetCode150 {
-    /*You are given an array of strings tokens that represents an arithmetic expression in a Reverse Polish Notation.
+    /*Yocê recebe um array de tokens de strings que representam uma expressão aritmética em uma Notação Polonesa Reversa.
 
-Evaluate the expression. Return an integer that represents the value of the expression.*/
+Avalie a expressão. Retorne um inteiro que representa o valor da expressão.*/
     public static int evalRPN(String[] tokens) {
         Stack<Integer> stack = new Stack<>();
 

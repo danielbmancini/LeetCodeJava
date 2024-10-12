@@ -1,7 +1,8 @@
 import java.util.ArrayList;
 
-public class LeetCode36 {
-    /*Determine if a 9 x 9 Sudoku board is valid.
+public class LeetCode36 { //Valid Sudoku
+    /*Determine se um tabuleiro de Sudoku 9 x 9 é válido.
+      Este problema é um queridinho meu, e no futuro próximo publicarei um gênero de solução para isto.
      * */
     private static final int sudokuSize = 9;
 

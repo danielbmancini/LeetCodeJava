@@ -4,14 +4,14 @@ import java.nio.file.Paths;
 import java.util.*;
 import java.util.stream.Stream;
 
-public class LeetCode45_2 { //solução com teoria dos grafos direcionados
+public class LeetCode45_2 { // solução com teoria dos grafos direcionados
     public static void main(String[] args) throws IOException {
         LeetCode45_2 leetCode45_2 = new LeetCode45_2();
         List<Integer> ints = readCommaSeparatedInts("numeros");
 
         int[] ints2 = new int[ints.size()];
         int j = 0;
-        for (Integer integer : ints){
+        for (Integer integer : ints) {
             ints2[j++] = integer;
         }
 
@@ -38,7 +38,6 @@ public class LeetCode45_2 { //solução com teoria dos grafos direcionados
 
     public int jump(int[] nums) {
 
-
         DirectedGraph graph = new DirectedGraph();
 
         for (int i = 0; i < nums.length; i++)
@@ -55,8 +54,7 @@ public class LeetCode45_2 { //solução com teoria dos grafos direcionados
             }
         }
 
-
-        //graph.printGraph();
+        // graph.printGraph();
         return graph.bfsShortestPath(0, nums.length - 1);
     }
 
@@ -113,7 +111,7 @@ class DirectedGraph {
 
         // Queue for BFS storing pairs of (node, current distance)
         Queue<int[]> queue = new LinkedList<>();
-        queue.add(new int[]{start, 0});
+        queue.add(new int[] { start, 0 });
 
         // Set to track visited nodes
         Set<Integer> visited = new HashSet<>();
@@ -135,7 +133,7 @@ class DirectedGraph {
 
                     // Mark the neighbor as visited and add it to the queue
                     visited.add(neighbor);
-                    queue.add(new int[]{neighbor, currentDistance + 1});
+                    queue.add(new int[] { neighbor, currentDistance + 1 });
                 }
             }
         }

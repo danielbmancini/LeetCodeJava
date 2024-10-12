@@ -1,9 +1,9 @@
 import java.util.*;
 
-public class LeetCode15 {
-    /*Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]] such that i != j, i != k, and j != k, and nums[i] + nums[j] + nums[k] == 0.
+public class LeetCode15 { //3Sum
+    /*Dado um array inteiro nums, retorne todos os tripletos [nums[i], nums[j], nums[k]] tais que i != j, i != k, e j != k, e nums[i] + nums[j] + nums[k] == 0.
 
-Notice that the solution set must not contain duplicate triplets.*/
+Observe que o conjunto de soluções não deve conter tripletos duplicados.*/
     public static List<List<Integer>> threeSum(int[] nums) { //incomplete
         HashSet<List<Integer>> lists = new HashSet<>();
 

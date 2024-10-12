@@ -1,6 +1,6 @@
-public class LeetCode28 {
-    /*Given two strings needle and haystack, return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
-     */
+public class LeetCode28 { //Find the Index of the First Occurrence in a String
+
+    /*Dadas duas strings agulha e palheiro, retorna o índice da primeira ocorrência de agulha em palheiro, ou -1 se agulha não fizer parte de palheiro.     */
     public static int strStr(String haystack, String needle) {
         for (int i = 0; i < haystack.length(); i++) {
             StringBuilder thisTry = new StringBuilder();

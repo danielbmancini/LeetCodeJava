@@ -1,7 +1,6 @@
 /*
     Two Sum
-    Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
-    08/2019
+    Dado um array de inteiros nums e um inteiro alvo, retorne os índices dos dois números de modo que a soma deles resulte no alvo.
  */
 public class LeetCode1 {
     public int[] twoSum(int[] nums, int target) {

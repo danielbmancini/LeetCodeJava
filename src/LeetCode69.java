@@ -1,6 +1,5 @@
-public class LeetCode69 {
-    /*Given a non-negative integer x, return the square root of x rounded down to the nearest integer. The returned integer should be non-negative as well.*/
-    public static int mySqrt(int x) {
+public class LeetCode69 { //Sqrt(x)
+/*Dado um inteiro não negativo x, retorna a raiz quadrada de x arredondada para baixo para o inteiro mais próximo. O inteiro retornado também deve ser não negativo.*/    public static int mySqrt(int x) {
         double guess = (x / 2);
 
         return newtonRaphsonIteration(guess, x, 0);

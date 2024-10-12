@@ -1,7 +1,7 @@
 import java.util.Stack;
 
-public class LeetCode13 {
-    //Given a roman numeral, convert it to an integer.
+public class LeetCode13 { //Roman to Integer
+    //Dado um numeral romano, converta-o em um inteiro.
 
     private static Stack<Integer> integers = new Stack<>();
     public static int romanToInt(String s) {

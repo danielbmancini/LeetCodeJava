@@ -3,7 +3,8 @@ import java.util.Arrays;
 import java.util.Iterator;
 import java.util.LinkedList;
 
-public class LeetCode189 {
+public class LeetCode189 { //Rotate Array
+/*Dado um array de inteiros nums, gire o array para a direita em k passos, onde k é não negativo. */
     public static void main(String[] args) {
         LeetCode189 leetCode189 = new LeetCode189();
 

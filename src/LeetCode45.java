@@ -1,5 +1,19 @@
 import java.util.*;
 
+/*
+ * Jump Game II
+ * Fiz várias soluções pra esse, explorando teoria dos grafos, que percebi que se aplica à esse problemas.
+ * Você recebe um array indexado em 0 de inteiros nums de comprimento n. Você é inicialmente posicionado em nums[0].
+
+Cada elemento nums[i] representa o comprimento máximo de um salto para frente do índice i. Em outras palavras, se você estiver em nums[i], você pode pular para qualquer nums[i + j] onde:
+
+0 <= j <= nums[i] e
+i + j < n
+
+Retorna o número mínimo de saltos para atingir nums[n - 1]. Os casos de teste são gerados de forma que você possa atingir nums[n - 1].
+ */
+
+
 public class LeetCode45 { //solução com teoria dos grafos
     public static void main(String[] args) {
         LeetCode45 leetCode45 = new LeetCode45();

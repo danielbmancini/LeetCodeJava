@@ -3,8 +3,10 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 
-/*Given an array of strings strs, group the anagrams together. You can return the answer in any order.*/
-public class LeetCode49 {
+/*Dado um array de strings strs, agrupe os
+anagramas
+juntos. Você pode retornar a resposta em qualquer ordem.*/
+public class LeetCode49 { //group anagrams
     public static String anagram(String s) {
         char[] sk = s.toCharArray();
         Arrays.sort(sk);
