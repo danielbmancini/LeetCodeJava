@@ -1,8 +1,8 @@
-Autoria própria
-| Estrutura de dados           | Classe                                                       |
-|------------------------------|--------------------------------------------------------------|
-| Grafo direcionado com pesos  | [DirectedWeightedGraph.java](src/DirectedWeightedGraph.java) |
-| Lista simplesmente conectada | [SinglyLinkedList.java](src/SimplyLinkedList.java)           |
+Autoria própria (dos problemas)
+| Estrutura de dados auxiliares | Classe                                                       |
+|-------------------------------|--------------------------------------------------------------|
+| Grafo direcionado com pesos   | [DirectedWeightedGraph.java](src/DirectedWeightedGraph.java) |
+| Lista simplesmente conectada  | [SinglyLinkedList.java](src/SinglyLinkedList.java)           |
 
 ## Índice de problemas e suas classes
 
