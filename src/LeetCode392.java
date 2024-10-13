@@ -1,6 +1,11 @@
 public class LeetCode392 {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) { //Is Subsequence
+        /*
+         * Dadas duas strings s e t, retorna true se s for uma subsequência de t, ou false caso contrário.
+        Uma subsequência de uma string é uma nova string que é formada a partir da string original pela exclusão de alguns (pode ser nenhum) caracteres sem perturbar as posições relativas dos caracteres restantes. 
+        (por exemplo, "ace" é uma subsequência de "abcde", enquanto "aec" não é).
+         */
         LeetCode392 leetCode392 = new LeetCode392();
 
         System.out.println(leetCode392.isSubsequence("", ""));
