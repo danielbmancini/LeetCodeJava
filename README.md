@@ -16,6 +16,7 @@ Autoria própria (dos problemas)
 | Problema 20  | [LeetCode20.java](src/LeetCode20.java)       | Valid Parentheses                                                              |
 | Problema 26  | [LeetCode26.java](src/LeetCode26.java)       | Remove Duplicates from Sorted Array                                            |
 | Problema 26  | [LeetCode26_2.java](src/LeetCode26_2.java)   | Remove Duplicates from Sorted Array (versão com listas simplesmente conectada) |
+| Problema 33  | [LeetCode33.java](src/LeetCode33.java)       | Search in Rotated Sorted Array                                                 |
 | Problema 45  | [LeetCode45.java](src/LeetCode45.java)       | Jump Game II - solução com grafo não direcionados + DFS                        |
 | Problema 45  | [LeetCode45.java](src/LeetCode45_2.java)     | Jump Game II - solução ideal                                                   |
 | Problema 45  | [LeetCode45.java](src/LeetCode45_3.java)     | Jump Game II - solução com grafo direcionado + DFS                             |
