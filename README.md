@@ -17,6 +17,7 @@ Autoria própria (dos problemas)
 | Problema 26  | [LeetCode26.java](src/LeetCode26.java)       | Remove Duplicates from Sorted Array                                            |
 | Problema 26  | [LeetCode26_2.java](src/LeetCode26_2.java)   | Remove Duplicates from Sorted Array (versão com listas simplesmente conectada) |
 | Problema 33  | [LeetCode33.java](src/LeetCode33.java)       | Search in Rotated Sorted Array                                                 |
+| Problema 34  | [LeetCode34.java](src/LeetCode34.java)       | Find First and Last Position of Element in Sorted Array (maracutaia)           |
 | Problema 45  | [LeetCode45.java](src/LeetCode45.java)       | Jump Game II - solução com grafo não direcionados + DFS                        |
 | Problema 45  | [LeetCode45.java](src/LeetCode45_2.java)     | Jump Game II - solução ideal                                                   |
 | Problema 45  | [LeetCode45.java](src/LeetCode45_3.java)     | Jump Game II - solução com grafo direcionado + DFS                             |
@@ -25,10 +26,13 @@ Autoria própria (dos problemas)
 | Problema 28  | [LeetCode28.java](src/LeetCode28.java)       | Find the Index of the First Occurrence in a String                             |
 | Problema 36  | [LeetCode36.java](src/LeetCode36.java)       | Valid Sudoku                                                                   |
 | Problema 49  | [LeetCode49.java](src/LeetCode49.java)       | Group Anagrams                                                                 |
+| Problema 53  | [LeetCode53.java](src/LeetCode53.java)       | Maximum Subarray                                                               |
+| Problema 54  | [LeetCode54.java](src/LeetCode54.java)       | Spiral Matrix                                                                  |
 | Problema 58  | [LeetCode58.java](src/LeetCode58.java)       | Length of Last Word                                                            |
 | Problema 67  | [LeetCode67.java](src/LeetCode67.java)       | Add Binary                                                                     |
 | Problema 69  | [LeetCode69.java](src/LeetCode69.java)       | Sqrt(x)                                                                        |
-| Problema 89  | [LeetCode88.java](src/LeetCode88.java)       | Merge Sorted Array                                                             |
+| Problema 88  | [LeetCode88.java](src/LeetCode88.java)       | Merge Sorted Array                                                             |
+| Problema 88  | [LeetCode88_2.java](src/LeetCode88_2.java)   | Merge Sorted Array (melhor)                                                    |
 | Problema 118 | [LeetCode118.java](src/LeetCode118.java)     | Pascal's Triangle                                                              |
 | Problema 128 | [LeetCode128.java](src/LeetCode128.java)     | Longest Consecutive Sequence                                                   |
 | Problema 121 | [LeetCode121.java](src/LeetCode121.java)     | Best Time to Buy and Sell Stock                                                |

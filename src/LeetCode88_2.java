@@ -2,6 +2,19 @@ import java.util.Arrays;
 
 public class LeetCode88_2 {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
+        /*
+         * Você recebe dois arrays inteiros nums1 e nums2, classificados em ordem não
+         * decrescente, e dois inteiros m e n, representando o número de elementos em
+         * nums1 e nums2, respectivamente.
+         * 
+         * Mescle nums1 e nums2 em um único array classificado em ordem não decrescente.
+         * 
+         * O array classificado final não deve ser retornado pela função, mas sim
+         * armazenado dentro do array nums1. Para acomodar isso, nums1 tem um
+         * comprimento de m + n, onde os primeiros m elementos denotam os elementos que
+         * devem ser mesclados, e os últimos n elementos são definidos como 0 e devem
+         * ser ignorados. nums2 tem um comprimento de n.
+         */
         int[] copy = new int[m + n];
         int i = 0;
         int j = 0;

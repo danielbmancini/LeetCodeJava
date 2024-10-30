@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class LeetCode54 {
+public class LeetCode54 { //Dada uma matriz m x n, retorne todos os elementos da matriz em ordem espiral.
     public static void main(String[] args) {
         LeetCode54 leetCode54 = new LeetCode54();
 
