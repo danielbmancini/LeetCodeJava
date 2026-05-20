@@ -3,7 +3,7 @@ Autoria própria (dos problemas)
 |-------------------------------|--------------------------------------------------------------|
 | Grafo direcionado com pesos   | [DirectedWeightedGraph.java](src/DirectedWeightedGraph.java) |
 | Lista conectada singularmente | [SinglyLinkedList.java](src/SinglyLinkedList.java)           |
-
+| Grafo com BFS e DFS | [Graph.java](src/Graph.java) |
 ## Índice de problemas e suas classes
 
 | Problema     | Classe                                       | Descrição                                                                      |
@@ -51,4 +51,5 @@ Autoria própria (dos problemas)
 | Problema 380 | [LeetCode380.java](src/LeetCode380.java)     | Insert Delete GetRandom(1)                                                     |
 | Problema 392 | [LeetCode392.java](src/LeetCode392.java)     | Is Subsequence                                                                 |
 | Problema 658 | [LeetCode658.java](src/LeetCode658.java)     | Find K Closest Elements                                                        |
+| Problema 1791 | [LeetCode1791.java](src/LeetCode1791.java) | Find Center of Star Graph |
 
