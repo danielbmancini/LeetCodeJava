@@ -229,27 +229,4 @@ public class DirectedGraph {
             throw new IllegalArgumentException("Invalid node: " + node);
         }
     }
-
-    public static void main(String[] args) {
-        int n = 3;
-        int[][] graph = {
-            {1, 0},
-            {2, 1},
-            {0, 2}
-        };
-
-        DirectedGraph g = new DirectedGraph(n, graph);
-
-        g.printGraph();
-
-        System.out.println("Has edge 1 -> 0? " + g.hasEdge(1, 0));
-        System.out.println("Neighbors of 1: " + g.getNeighbors(1));
-        System.out.println("BFS from 1: " + g.bfs(1));
-        System.out.println("DFS from 1: " + g.dfs(1));
-        System.out.println("Has cycle? " + g.hasCycle());
-
-        // This will throw because the sample graph has a cycle:
-        // 1 -> 0 -> 2 -> 1
-        // System.out.println(g.topologicalSort());
-    }
 }
