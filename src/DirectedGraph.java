@@ -34,6 +34,26 @@ public class DirectedGraph {
         }
     }
 
+    public DirectedGraph(int n, int[][] trust, boolean oneIndexedLabels) {
+        this(n);
+
+        for (int[] relationship : trust) {
+            if (relationship == null || relationship.length != 2) {
+                throw new IllegalArgumentException("Each trust relationship must have exactly two values");
+            }
+
+            int from = relationship[0];
+            int to = relationship[1];
+
+            if (oneIndexedLabels) {
+                from--;
+                to--;
+            }
+
+            addEdge(from, to);
+        }
+    }
+
     public int size() {
         return n;
     }

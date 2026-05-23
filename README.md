@@ -5,7 +5,7 @@ Autoria própria (dos problemas)
 | Grafo direcionado com pesos          | [DirectedWeightedGraph.java](src/DirectedWeightedGraph.java) |
 | Lista conectada singularmente        | [SinglyLinkedList.java](src/SinglyLinkedList.java)           |
 | Grafo com BFS e DFS                  | [Graph.java](src/Graph.java)                                 |
-| Grafo direcionado com métodos usuais | [DirectedGraph3.java](src/DirectedGraph3.java)               |
+| Grafo direcionado com métodos usuais | [DirectedGraph.java](src/DirectedGraph.java)                 |
 
 ## Índice de problemas e suas classes
 
@@ -37,6 +37,7 @@ Autoria própria (dos problemas)
 | Problema 88   | [LeetCode88.java](src/LeetCode88.java)       | Merge Sorted Array                                                             |
 | Problema 88   | [LeetCode88_2.java](src/LeetCode88_2.java)   | Merge Sorted Array (melhor)                                                    |
 | Problema 118  | [LeetCode118.java](src/LeetCode118.java)     | Pascal's Triangle                                                              |
+| Problema 119  | [LeetCode119.java](LeetCode119.java)         | Pascal's Triangle II                                                           |
 | Problema 121  | [LeetCode121.java](src/LeetCode121.java)     | Best Time to Buy and Sell Stock                                                |
 | Problema 121  | [LeetCode121_2.java](src/LeetCode121_2.java) | Best Time to Buy and Sell Stock (ideal)                                        |
 | Problema 128  | [LeetCode128.java](src/LeetCode128.java)     | Longest Consecutive Sequence                                                   |
@@ -45,6 +46,7 @@ Autoria própria (dos problemas)
 | Problema 167  | [LeetCode167.java](src/LeetCode167.java)     | Two Sum II - Input Array Is Sorted                                             |
 | Problema 169  | [LeetCode169.java](src/LeetCode169.java)     | Majority Element                                                               |
 | Problema 169  | [LeetCode169_2.java](src/LeetCode169_2.java) | Majority Element (ideal)                                                       |
+| Problema 172  | [LeetCode172.java](LeetCode172.java)         | Factorial Trailing Zeroes                                                      |
 | Problema 189  | [LeetCode189.java](src/LeetCode189.java)     | Rotate Array                                                                   |
 | Problema 207  | [LeetCode207.java](src/LeetCode207.java)     | Course Schedule                                                                |
 | Problema 210  | [LeetCode210.java](src/LeetCode210.java)     | Course Schedule II                                                             |
@@ -57,5 +59,6 @@ Autoria própria (dos problemas)
 | Problema 392  | [LeetCode392.java](src/LeetCode392.java)     | Is Subsequence                                                                 |
 | Problema 658  | [LeetCode658.java](src/LeetCode658.java)     | Find K Closest Elements                                                        |
 | Problema 785  | [LeetCode785.java](src/LeetCode785.java)     | Is Graph Bipartite?                                                            |
+| Problema 997  | [LeetCode997.java](LeetCode997.java)         | Find the Town Judge                                                            |
 | Problema 1791 | [LeetCode1791.java](src/LeetCode1791.java)   | Find Center of Star Graph                                                      |
 | Problema 1971 | [LeetCode1971.java](src/LeetCode1971.java)   | Find if Path Exists in Graph                                                   |
