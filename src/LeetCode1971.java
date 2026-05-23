@@ -15,7 +15,7 @@ public class LeetCode1971 {
          * verdadeiro se houver um caminho válido de origem para destino, ou falso caso
          * contrário.
          */
-        Graph graph = new Graph(n, edges);
+        Graph2 graph = new Graph2(n, edges);
 
         return graph.dfs(source, destination).contains(destination);
 

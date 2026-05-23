@@ -38,7 +38,7 @@ public class LeetCode45_2 { // solução com teoria dos grafos direcionados
 
     public int jump(int[] nums) {
 
-        DirectedGraph graph = new DirectedGraph();
+        DirectedGraph3 graph = new DirectedGraph3();
 
         for (int i = 0; i < nums.length; i++)
             graph.addVertex(i);
@@ -60,11 +60,11 @@ public class LeetCode45_2 { // solução com teoria dos grafos direcionados
 
 }
 
-class DirectedGraph {
+class DirectedGraph3 {
     private Map<Integer, List<Integer>> adjList; // adjacency list
 
     // Constructor to initialize the graph
-    public DirectedGraph() {
+    public DirectedGraph3() {
         adjList = new HashMap<>();
     }
 

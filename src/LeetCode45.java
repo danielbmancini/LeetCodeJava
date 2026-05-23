@@ -24,7 +24,7 @@ public class LeetCode45 { //solução com teoria dos grafos
     public int jump(int[] nums) {
 
 
-        Graph graph = new Graph();
+        Graph2 graph = new Graph2();
 
         for (int i = 0; i < nums.length; i++)
             graph.addNode(i);
@@ -48,10 +48,10 @@ public class LeetCode45 { //solução com teoria dos grafos
 
 }
 
-class Graph {
+class Graph2 {
     private HashMap<Integer, ArrayList<Integer>> adjList;
 
-    public Graph() {
+    public Graph2() {
         this.adjList = new HashMap<>();
     }
 

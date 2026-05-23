@@ -1,14 +1,16 @@
 Autoria própria (dos problemas)
+
 | Estrutura de dados auxiliares        | Classe                                                       |
-| ------------------------------------ | ------------------------------------------------------------ |
+|--------------------------------------|--------------------------------------------------------------|
 | Grafo direcionado com pesos          | [DirectedWeightedGraph.java](src/DirectedWeightedGraph.java) |
 | Lista conectada singularmente        | [SinglyLinkedList.java](src/SinglyLinkedList.java)           |
 | Grafo com BFS e DFS                  | [Graph.java](src/Graph.java)                                 |
-| Grafo Direcionado com métodos usuais | [DirectedGraph.java](src/DirectedGraph.java)                 |
+| Grafo direcionado com métodos usuais | [DirectedGraph3.java](src/DirectedGraph3.java)               |
+
 ## Índice de problemas e suas classes
 
 | Problema      | Classe                                       | Descrição                                                                      |
-| ------------- | -------------------------------------------- | ------------------------------------------------------------------------------ |
+|---------------|----------------------------------------------|--------------------------------------------------------------------------------|
 | Problema 1    | [LeetCode1.java](src/LeetCode1.java)         | Two Sum                                                                        |
 | Problema 11   | [LeetCode11.java](src/LeetCode11.java)       | Container With Most Water                                                      |
 | Problema 13   | [LeetCode13.java](src/LeetCode13.java)       | Roman to Integer                                                               |
@@ -54,5 +56,6 @@ Autoria própria (dos problemas)
 | Problema 380  | [LeetCode380.java](src/LeetCode380.java)     | Insert Delete GetRandom(1)                                                     |
 | Problema 392  | [LeetCode392.java](src/LeetCode392.java)     | Is Subsequence                                                                 |
 | Problema 658  | [LeetCode658.java](src/LeetCode658.java)     | Find K Closest Elements                                                        |
+| Problema 785  | [LeetCode785.java](src/LeetCode785.java)     | Is Graph Bipartite?                                                            |
 | Problema 1791 | [LeetCode1791.java](src/LeetCode1791.java)   | Find Center of Star Graph                                                      |
 | Problema 1971 | [LeetCode1971.java](src/LeetCode1971.java)   | Find if Path Exists in Graph                                                   |

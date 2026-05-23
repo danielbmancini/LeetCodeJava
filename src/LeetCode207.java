@@ -13,7 +13,7 @@ public class LeetCode207 {
          * retorne false.
          */
 
-        DirectedGraph directedGraph = new DirectedGraph(numCourses, prerequisites);
+        DirectedGraph3 directedGraph = new DirectedGraph3(numCourses, prerequisites);
 
         return !directedGraph.hasCycle(); //Não tem ciclo 
     }

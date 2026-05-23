@@ -1,18 +1,29 @@
+
 import java.util.*;
 
-class Graph {
+public class Graph {
+
     private final int n;
     private final int[][] adj;
 
-    public Graph(int n, int[][] edges) {
-        this.n = n;
+    public Graph(int[][] graph) {
+        this.n = graph.length;
+        this.adj = new int[n][];
 
-        int[] degree = new int[n];
-
-        for (int[] edge : edges) {
-            degree[edge[0]]++;
-            degree[edge[1]]++;
+        for (int i = 0; i < n; i++) {
+            this.adj[i] = Arrays.copyOf(graph[i], graph[i].length);
         }
+    }
+
+    public Graph(int n, int[][] edges) {
+            this.n = n;
+        
+        int[] degree = new int[n];
+        
+            for (int[] edge : edges) {
+                degree[edge[0]]++;
+                degree[edge[1]]++;
+    }
 
         adj = new int[n][];
 
@@ -30,6 +41,7 @@ class Graph {
             adj[v][index[v]++] = u;
         }
     }
+        
 
     public int size() {
         return n;
@@ -38,7 +50,6 @@ class Graph {
     public int[] neighbors(int node) {
         return adj[node];
     }
-
     public List<Integer> bfs(int start) {
         boolean[] visited = new boolean[n];
         Queue<Integer> queue = new LinkedList<>();
@@ -136,4 +147,51 @@ class Graph {
 
         return false;
     }
+
+    public boolean bfsFrom(int start, boolean[] visited, NodeProcessor processor) {
+        Queue<Integer> queue = new LinkedList<>();
+
+        visited[start] = true;
+        queue.offer(start);
+
+        while (!queue.isEmpty()) {
+            int node = queue.poll();
+
+            if (!processor.process(node)) {
+                return false;
+            }
+
+            for (int neighbor : adj[node]) {
+                if (!visited[neighbor]) {
+                    visited[neighbor] = true;
+                    queue.offer(neighbor);
+                }
+            }
+        }
+
+        return true;
+    }
+
+    public boolean dfsFrom(int start, boolean[] visited, NodeProcessor processor) {
+        visited[start] = true;
+
+        if (!processor.process(start)) {
+            return false;
+        }
+
+        for (int neighbor : adj[start]) {
+            if (!visited[neighbor]) {
+                if (!dfsFrom(neighbor, visited, processor)) {
+                    return false;
+                }
+            }
+        }
+
+        return true;
+    }
+}
+
+interface NodeProcessor { //detalhar processamento de nodos nos métodos que a usam
+
+    boolean process(int node);
 }

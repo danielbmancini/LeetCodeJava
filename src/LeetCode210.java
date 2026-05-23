@@ -18,7 +18,7 @@ public class LeetCode210 {
         if (numCourses == 1)
             return new int[] { 0 };
 
-        DirectedGraph graph = new DirectedGraph(numCourses, prerequisites);
+        DirectedGraph3 graph = new DirectedGraph3(numCourses, prerequisites);
 
         if (graph.hasCycle())
             return new int[] {};

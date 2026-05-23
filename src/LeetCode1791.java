@@ -8,7 +8,7 @@ Dado um vetor bidimensional de inteiros `edges`, onde cada `edges[i] = [ui, vi]`
     public static int findCenter(int[][] edges) { //começando de qualquer nodo, é garantido que o nodo central estará conectado a ele, limitando a pesquisa ao numero de vizinhos de vizinhos do nodo inicial.
         int n = 2 * edges.length;
         System.out.println("n = " + n);
-        Graph graph = new Graph(n,edges);
+        Graph2 graph = new Graph2(n,edges);
 
         int start = edges[0][0];
         int[] neighbors = graph.neighbors(start);
