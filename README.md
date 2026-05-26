@@ -16,6 +16,7 @@ Autoria própria (dos problemas)
 | Problema 13   | [LeetCode13.java](src/LeetCode13.java)       | Roman to Integer                                                               |
 | Problema 14   | [LeetCode14.java](src/LeetCode14.java)       | Longest Common Prefix                                                          |
 | Problema 15   | [LeetCode15.java](src/LeetCode15.java)       | 3Sum                                                                           |
+| Problema 16   | [LeetCode16.java](src/LeetCode16.java)       | 3Sum Closest                                                                   |
 | Problema 20   | [LeetCode20.java](src/LeetCode20.java)       | Valid Parentheses                                                              |
 | Problema 26   | [LeetCode26.java](src/LeetCode26.java)       | Remove Duplicates from Sorted Array                                            |
 | Problema 26   | [LeetCode26_2.java](src/LeetCode26_2.java)   | Remove Duplicates from Sorted Array (versão com listas simplesmente conectada) |
@@ -46,7 +47,7 @@ Autoria própria (dos problemas)
 | Problema 167  | [LeetCode167.java](src/LeetCode167.java)     | Two Sum II - Input Array Is Sorted                                             |
 | Problema 169  | [LeetCode169.java](src/LeetCode169.java)     | Majority Element                                                               |
 | Problema 169  | [LeetCode169_2.java](src/LeetCode169_2.java) | Majority Element (ideal)                                                       |
-| Problema 172  | [LeetCode172.java](src/LeetCode172.java)         | Factorial Trailing Zeroes                                                      |
+| Problema 172  | [LeetCode172.java](src/LeetCode172.java)     | Factorial Trailing Zeroes                                                      |
 | Problema 189  | [LeetCode189.java](src/LeetCode189.java)     | Rotate Array                                                                   |
 | Problema 207  | [LeetCode207.java](src/LeetCode207.java)     | Course Schedule                                                                |
 | Problema 210  | [LeetCode210.java](src/LeetCode210.java)     | Course Schedule II                                                             |

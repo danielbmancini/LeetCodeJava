@@ -1,66 +1,76 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.IntStream;
 
 public class LeetCode15 { //3Sum
     /*Dado um array inteiro nums, retorne todos os tripletos [nums[i], nums[j], nums[k]] tais que i != j, i != k, e j != k, e nums[i] + nums[j] + nums[k] == 0.
 
 Observe que o conjunto de soluções não deve conter tripletos duplicados.*/
-    public static List<List<Integer>> threeSum(int[] nums) { //incomplete
-        HashSet<List<Integer>> lists = new HashSet<>();
+    public static List<List<Integer>> threeSum(int[] nums) {
+        /*
+        3Sum(S,0):
+    impose monotonic structure on S
+
+    for each unique choice x in S:
+        search for unique pairs (y, z) in the remaining ordered region
+        such that:
+
+            y + z = -x
+
+        emit canonical triple (x, y, z)
+         */
+        Arrays.sort(nums);
 
 
-        for (int i = 0; i < nums.length; i++) {
-            for (int j = i; j < nums.length; j++) {
-                int c = -(nums[i] + nums[j]);
+        return IntStream.range(0, nums.length - 2) //range inclusivo
+                .filter(i -> i == 0 || nums[i] != nums[i - 1])
+                .boxed()
+                .flatMap(i -> twoSumAfter(nums, i).stream())
+                .toList();
+    }
 
-                int search = -1;
-                int count = 0;
-                while (search == -1 && count < nums.length ) {
-                    count++;
-                    search = binarySearch2(nums, j + 1, nums.length , c);
-                    //System.out.println(search);
-                  //  if (search == j)
-                       // search = binarySearch2(nums, j, nums.length - 1, c);
-                    // if (search > -1)
-                      //  break;
+    private static List<List<Integer>> twoSumAfter(int[] nums, int anchor) {
+        //janela de procura, inclusive
+        int lo = anchor + 1;
+        int hi = nums.length - 1;
+
+        List<List<Integer>> matches = new ArrayList<>();
+
+        while (hi > lo) {//dois candidatos na janela
+            int pairHi = nums[hi];
+            int pairLo = nums[lo];
+            int anchorValue = nums[anchor];
+            if (pairHi + pairLo == -anchorValue) { // "x + y + z = 0"
+                matches.add(List.of(pairLo, pairHi, anchorValue));
+
+
+                //diminuir janela
+                hi--;
+                lo++;
+
+                while (lo < hi && nums[lo] == nums[lo - 1]) { //próximo 'lo' é duplicata
+                    lo++;
                 }
 
+                while (lo < hi && nums[hi] == nums[hi + 1]) { //próximo 'hi' é duplicada
+                    hi--;
+                }
 
-                if(search == -1)
-                    continue;
-                List<Integer> newList = new ArrayList<>();
-                newList.add(nums[i]);
-                newList.add(nums[j]);
-                newList.add(nums[search]);
-                newList.sort(Comparator.naturalOrder());
-
-                    lists.add(newList);
-                System.out.println(newList);
+            } else if (pairHi + pairLo < -anchorValue) { //condição de falsificação 1
+                lo++;
+            } else { //condição de falsificação 2
+                hi--;
             }
 
-        }
 
-        return new ArrayList<>(lists);
+        }
+        return matches;
     }
+
 
     public static void main(String[] args) {
-        System.out.println("\n\n" + threeSum(new int[]{1,2,-2,-1}));
-    }
-
-   /* private static int binarySearch2(int[] nums,int key){
-        int a = Arrays.binarySearch(nums,key);
-
-        if (a < 0)
-            return -1;
-        else
-            return a;
-    }*/
-
-    private static int binarySearch2(int[] nums,int fromIndex,int toIndex, int key){
-        int a = Arrays.binarySearch(nums,fromIndex,toIndex,key);
-
-        if (a < 0)
-            return -1;
-        else
-            return a;
+        int[] nums = {-1, 0, 1, 2, -1, -4};
+        System.out.println(threeSum(nums));
     }
 }
