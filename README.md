@@ -54,7 +54,10 @@ Autoria própria (dos problemas)
 | Problema 217  | [LeetCode217.java](src/LeetCode217.java)     | Contains Duplicate                                                             |
 | Problema 238  | [LeetCode238.java](src/LeetCode238.java)     | Product of Array Except Self                                                   |
 | Problema 242  | [LeetCode242.java](src/LeetCode242.java)     | Valid Anagram                                                                  |
+| Problema 263  | [LeetCode263.java](src/LeetCode263.java)     | Ugly Number                                                                    | 
+| Problema 264  | [LeetCode264.java](src/LeetCode264.java)     | Ugly Number II                                                                 |
 | Problema 274  | [LeetCode274.java](src/LeetCode274.java)     | H-Index                                                                        |
+| Problema 313  | [LeetCode313.java](src/LeetCode313.java)     | Super Ugly Number                                                              |
 | Problema 347  | [LeetCode347.java](src/LeetCode347.java)     | Top K Frequent Elements                                                        |
 | Problema 380  | [LeetCode380.java](src/LeetCode380.java)     | Insert Delete GetRandom(1)                                                     |
 | Problema 392  | [LeetCode392.java](src/LeetCode392.java)     | Is Subsequence                                                                 |
