@@ -35,6 +35,7 @@ Autoria própria (dos problemas)
 | Problema 58   | [LeetCode58.java](src/LeetCode58.java)       | Length of Last Word                                                            |
 | Problema 67   | [LeetCode67.java](src/LeetCode67.java)       | Add Binary                                                                     |
 | Problema 69   | [LeetCode69.java](src/LeetCode69.java)       | Sqrt(x)                                                                        |
+| Problema 81   | [LeetCode81.java](src/LeetCode81.java)       | Search in Rotated Sorted Array II                                              |
 | Problema 88   | [LeetCode88.java](src/LeetCode88.java)       | Merge Sorted Array                                                             |
 | Problema 88   | [LeetCode88_2.java](src/LeetCode88_2.java)   | Merge Sorted Array (melhor)                                                    |
 | Problema 118  | [LeetCode118.java](src/LeetCode118.java)     | Pascal's Triangle                                                              |
@@ -62,6 +63,7 @@ Autoria própria (dos problemas)
 | Problema 380  | [LeetCode380.java](src/LeetCode380.java)     | Insert Delete GetRandom(1)                                                     |
 | Problema 392  | [LeetCode392.java](src/LeetCode392.java)     | Is Subsequence                                                                 |
 | Problema 658  | [LeetCode658.java](src/LeetCode658.java)     | Find K Closest Elements                                                        |
+| Problema 738  | [LeetCode738.java](src/LeetCode738.java)     | Monotone Increasing Digits                                                     |
 | Problema 785  | [LeetCode785.java](src/LeetCode785.java)     | Is Graph Bipartite?                                                            |
 | Problema 997  | [LeetCode997.java](src/LeetCode997.java)     | Find the Town Judge                                                            |
 | Problema 1791 | [LeetCode1791.java](src/LeetCode1791.java)   | Find Center of Star Graph                                                      |
