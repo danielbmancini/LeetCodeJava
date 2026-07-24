@@ -43,6 +43,7 @@ Autoria própria (dos problemas)
 | Problema 121  | [LeetCode121.java](src/LeetCode121.java)     | Best Time to Buy and Sell Stock                                                |
 | Problema 121  | [LeetCode121_2.java](src/LeetCode121_2.java) | Best Time to Buy and Sell Stock (ideal)                                        |
 | Problema 128  | [LeetCode128.java](src/LeetCode128.java)     | Longest Consecutive Sequence                                                   |
+| Problema 136  | [LeetCode136.java](src/LeetCode136.java)     | Single Number                                                                  |
 | Problema 150  | [LeetCode150.java](src/LeetCode150.java)     | Evaluate Reverse Polish Notation                                               |
 | Problema 155  | [LeetCode155.java](src/LeetCode155.java)     | Min Stack                                                                      |
 | Problema 167  | [LeetCode167.java](src/LeetCode167.java)     | Two Sum II - Input Array Is Sorted                                             |
@@ -59,6 +60,7 @@ Autoria própria (dos problemas)
 | Problema 264  | [LeetCode264.java](src/LeetCode264.java)     | Ugly Number II                                                                 |
 | Problema 274  | [LeetCode274.java](src/LeetCode274.java)     | H-Index                                                                        |
 | Problema 313  | [LeetCode313.java](src/LeetCode313.java)     | Super Ugly Number                                                              |
+| Problema 342  | [LeetCode342.java](src/LeetCode342.java)     | Power of Four                                                                  |
 | Problema 347  | [LeetCode347.java](src/LeetCode347.java)     | Top K Frequent Elements                                                        |
 | Problema 380  | [LeetCode380.java](src/LeetCode380.java)     | Insert Delete GetRandom(1)                                                     |
 | Problema 392  | [LeetCode392.java](src/LeetCode392.java)     | Is Subsequence                                                                 |
