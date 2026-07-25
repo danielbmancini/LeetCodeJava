@@ -1,0 +1,46 @@
+import java.util.*;
+
+public class TreeBuilder {
+
+    /**
+     * Builds a binary tree from a level-order list representation.
+     * @param values array containing Integer values (null means no node)
+     * @return root of the constructed tree, or null if the array is empty/null
+     */
+    public static TreeNode buildTree(Integer[] values) {
+        if (values == null || values.length == 0 || values[0] == null) {
+            return null;
+        }
+
+        TreeNode root = new TreeNode(values[0]);
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.offer(root);
+
+        int i = 1;
+        while (!queue.isEmpty() && i < values.length) {
+            TreeNode current = queue.poll();
+
+            // Left child
+            if (i < values.length && values[i] != null) {
+                current.left = new TreeNode(values[i]);
+                queue.offer(current.left);
+            }
+            i++;
+
+            // Right child
+            if (i < values.length && values[i] != null) {
+                current.right = new TreeNode(values[i]);
+                queue.offer(current.right);
+            }
+            i++;
+        }
+
+        return root;
+    }
+
+    // Overload that accepts a List<Integer>
+    public static TreeNode buildTree(List<Integer> values) {
+        if (values == null) return null;
+        return buildTree(values.toArray(new Integer[0]));
+    }
+}

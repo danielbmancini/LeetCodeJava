@@ -6,6 +6,9 @@ Autoria própria (dos problemas)
 | Lista conectada singularmente        | [SinglyLinkedList.java](src/SinglyLinkedList.java)           |
 | Grafo com BFS e DFS                  | [Graph.java](src/Graph.java)                                 |
 | Grafo direcionado com métodos usuais | [DirectedGraph.java](src/DirectedGraph.java)                 |
+| Árvore de busca binária              | [BinarySearchTree.java](src/BinarySearchTree.java)           |
+| TreeNode                             | [TreeNode.java](src/TreeNode.java)                           |
+| Builder para TreeNode                | [TreeBuilder.java](src/TreeBuilder.java)                     |
 
 ## Índice de problemas e suas classes
 
@@ -38,6 +41,9 @@ Autoria própria (dos problemas)
 | Problema 81   | [LeetCode81.java](src/LeetCode81.java)       | Search in Rotated Sorted Array II                                              |
 | Problema 88   | [LeetCode88.java](src/LeetCode88.java)       | Merge Sorted Array                                                             |
 | Problema 88   | [LeetCode88_2.java](src/LeetCode88_2.java)   | Merge Sorted Array (melhor)                                                    |
+| Problema 94   | [LeetCode94.java](src/LeetCode94.java)       | Binary Tree Inorder Traversal                                                  |
+| Problema 100  | [LeetCode100.java](src/LeetCode100.java)     | Same Tree                                                                      |
+| Problema 101  | [LeetCode101.java](src/LeetCode101.java)     | Symmetric Tree                                                                 |
 | Problema 118  | [LeetCode118.java](src/LeetCode118.java)     | Pascal's Triangle                                                              |
 | Problema 119  | [LeetCode119.java](src/LeetCode119.java)     | Pascal's Triangle II                                                           |
 | Problema 121  | [LeetCode121.java](src/LeetCode121.java)     | Best Time to Buy and Sell Stock                                                |
