@@ -1,4 +1,4 @@
-Autoria própria (dos problemas)
+Autoria própria [dos problemas]
 
 | Estrutura de dados auxiliares        | Classe                                                       |
 |--------------------------------------|--------------------------------------------------------------|
