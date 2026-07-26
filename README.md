@@ -44,17 +44,25 @@ Autoria própria (dos problemas)
 | Problema 94   | [LeetCode94.java](src/LeetCode94.java)       | Binary Tree Inorder Traversal                                                  |
 | Problema 100  | [LeetCode100.java](src/LeetCode100.java)     | Same Tree                                                                      |
 | Problema 101  | [LeetCode101.java](src/LeetCode101.java)     | Symmetric Tree                                                                 |
+| Problema 104  | [LeetCode104.java](src/LeetCode104.java)     | Maximum Depth Of Binary Tree                                                   |                       
+| Problema 108  | [LeetCode108.java](src/LeetCode108.java)     | Convert Sorted Array To Binary Search Tree                                     |                    
+| Problema 110  | [LeetCode110.java](src/LeetCode110.java)     | Balanced Binary Tree                                                           |                  
+| Problema 111  | [LeetCode111.java](src/LeetCode111.java)     | Minimum Depth of Binary Tree                                                   |
 | Problema 118  | [LeetCode118.java](src/LeetCode118.java)     | Pascal's Triangle                                                              |
 | Problema 119  | [LeetCode119.java](src/LeetCode119.java)     | Pascal's Triangle II                                                           |
 | Problema 121  | [LeetCode121.java](src/LeetCode121.java)     | Best Time to Buy and Sell Stock                                                |
-| Problema 121  | [LeetCode121_2.java](src/LeetCode121_2.java) | Best Time to Buy and Sell Stock (ideal)                                        |
+| Problema 121  | [LeetCode121_2.java](src/LeetCode121_2.java) | Best Time to Buy and Sell Stock (                                              
+ ideal)        |
 | Problema 128  | [LeetCode128.java](src/LeetCode128.java)     | Longest Consecutive Sequence                                                   |
 | Problema 136  | [LeetCode136.java](src/LeetCode136.java)     | Single Number                                                                  |
+| Problema 144  | [LeetCode144.java](src/LeetCode144.java)     | Binary Tree Preorder Traversal                                                 |
+| Problema 145  | [LeetCode145.java](src/LeetCode145.java)     | Binary Tree Postorder Traversal                                                |
 | Problema 150  | [LeetCode150.java](src/LeetCode150.java)     | Evaluate Reverse Polish Notation                                               |
 | Problema 155  | [LeetCode155.java](src/LeetCode155.java)     | Min Stack                                                                      |
 | Problema 167  | [LeetCode167.java](src/LeetCode167.java)     | Two Sum II - Input Array Is Sorted                                             |
 | Problema 169  | [LeetCode169.java](src/LeetCode169.java)     | Majority Element                                                               |
-| Problema 169  | [LeetCode169_2.java](src/LeetCode169_2.java) | Majority Element (ideal)                                                       |
+| Problema 169  | [LeetCode169_2.java](src/LeetCode169_2.java) | Majority Element (                                                             
+ ideal)        |
 | Problema 172  | [LeetCode172.java](src/LeetCode172.java)     | Factorial Trailing Zeroes                                                      |
 | Problema 189  | [LeetCode189.java](src/LeetCode189.java)     | Rotate Array                                                                   |
 | Problema 207  | [LeetCode207.java](src/LeetCode207.java)     | Course Schedule                                                                |
@@ -62,13 +70,14 @@ Autoria própria (dos problemas)
 | Problema 217  | [LeetCode217.java](src/LeetCode217.java)     | Contains Duplicate                                                             |
 | Problema 238  | [LeetCode238.java](src/LeetCode238.java)     | Product of Array Except Self                                                   |
 | Problema 242  | [LeetCode242.java](src/LeetCode242.java)     | Valid Anagram                                                                  |
-| Problema 263  | [LeetCode263.java](src/LeetCode263.java)     | Ugly Number                                                                    | 
+| Problema 263  | [LeetCode263.java](src/LeetCode263.java)     | Ugly Number                                                                    |
 | Problema 264  | [LeetCode264.java](src/LeetCode264.java)     | Ugly Number II                                                                 |
 | Problema 274  | [LeetCode274.java](src/LeetCode274.java)     | H-Index                                                                        |
 | Problema 313  | [LeetCode313.java](src/LeetCode313.java)     | Super Ugly Number                                                              |
 | Problema 342  | [LeetCode342.java](src/LeetCode342.java)     | Power of Four                                                                  |
 | Problema 347  | [LeetCode347.java](src/LeetCode347.java)     | Top K Frequent Elements                                                        |
-| Problema 380  | [LeetCode380.java](src/LeetCode380.java)     | Insert Delete GetRandom(1)                                                     |
+| Problema 380  | [LeetCode380.java](src/LeetCode380.java)     | Insert Delete GetRandom(                                                       
+ 1)            |
 | Problema 392  | [LeetCode392.java](src/LeetCode392.java)     | Is Subsequence                                                                 |
 | Problema 658  | [LeetCode658.java](src/LeetCode658.java)     | Find K Closest Elements                                                        |
 | Problema 738  | [LeetCode738.java](src/LeetCode738.java)     | Monotone Increasing Digits                                                     |

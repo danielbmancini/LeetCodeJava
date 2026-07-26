@@ -1,5 +1,5 @@
 public class BinarySearchTree {
-    private static TreeNode root;
+    private  TreeNode root;
 
     public BinarySearchTree() {
         this.root = null;
@@ -115,7 +115,7 @@ public class BinarySearchTree {
         return node;
     }
 
-    public static void inorder() {
+    public void inorder() {
         inorderRecursive(root);
         System.out.println();
     }
