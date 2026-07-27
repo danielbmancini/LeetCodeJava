@@ -33,6 +33,7 @@ Autoria própria [dos problemas]
 | Problema 45   | [LeetCode45_3.java](src/LeetCode45_3.java)   | Jump Game II - solução com grafo direcionado + DFS                             |
 | Problema 45   | [LeetCode45_4.java](src/LeetCode45_4.java)   | Jump Game II - solução com grafo direcionado + BFS (ideal?)                    |
 | Problema 49   | [LeetCode49.java](src/LeetCode49.java)       | Group Anagrams                                                                 |
+| Problema 50   | [LeetCode50.java](src/LeetCode50.java)       | Pow(x, n)                                                                      |
 | Problema 53   | [LeetCode53.java](src/LeetCode53.java)       | Maximum Subarray                                                               |
 | Problema 54   | [LeetCode54.java](src/LeetCode54.java)       | Spiral Matrix                                                                  |
 | Problema 58   | [LeetCode58.java](src/LeetCode58.java)       | Length of Last Word                                                            |
@@ -49,6 +50,7 @@ Autoria própria [dos problemas]
 | Problema 110  | [LeetCode110.java](src/LeetCode110.java)     | Balanced Binary Tree                                                           |                  
 | Problema 111  | [LeetCode111.java](src/LeetCode111.java)     | Minimum Depth of Binary Tree                                                   |
 | Problema 112  | [LeetCode112.java](src/LeetCode112.java)     | Path Sum                                                                       |
+| Problema 113  | [LeetCode113.java](src/LeetCode113.java)     | Path Sum  II                                                                   |
 | Problema 118  | [LeetCode118.java](src/LeetCode118.java)     | Pascal's Triangle                                                              |
 | Problema 119  | [LeetCode119.java](src/LeetCode119.java)     | Pascal's Triangle II                                                           |
 | Problema 121  | [LeetCode121.java](src/LeetCode121.java)     | Best Time to Buy and Sell Stock                                                |
@@ -70,6 +72,7 @@ Autoria própria [dos problemas]
 | Problema 226  | [LeetCode226.java](src/LeetCode226.java)     | Invert Binary Tree                                                             |
 | Problema 238  | [LeetCode238.java](src/LeetCode238.java)     | Product of Array Except Self                                                   |
 | Problema 242  | [LeetCode242.java](src/LeetCode242.java)     | Valid Anagram                                                                  |
+| Problema 257  | [LeetCode257.java](src/LeetCode257.java)     | Binary Tree Paths                                                              |
 | Problema 263  | [LeetCode263.java](src/LeetCode263.java)     | Ugly Number                                                                    |
 | Problema 264  | [LeetCode264.java](src/LeetCode264.java)     | Ugly Number II                                                                 |
 | Problema 274  | [LeetCode274.java](src/LeetCode274.java)     | H-Index                                                                        |
@@ -78,6 +81,7 @@ Autoria própria [dos problemas]
 | Problema 347  | [LeetCode347.java](src/LeetCode347.java)     | Top K Frequent Elements                                                        |
 | Problema 380  | [LeetCode380.java](src/LeetCode380.java)     | Insert Delete GetRandom                                         1              |
 | Problema 392  | [LeetCode392.java](src/LeetCode392.java)     | Is Subsequence                                                                 |
+| Problema 404  | [LeetCode404.java](src/LeetCode404.java)     | Sum of Left Leaves                                                             | 
 | Problema 653  | [LeetCode653.java](src/LeetCode653.java)     | Two Sum IV - Input is a BST                                                    |
 | Problema 658  | [LeetCode658.java](src/LeetCode658.java)     | Find K Closest Elements                                                        |
 | Problema 738  | [LeetCode738.java](src/LeetCode738.java)     | Monotone Increasing Digits                                                     |
