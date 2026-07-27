@@ -12,77 +12,76 @@ Autoria própria [dos problemas]
 
 ## Índice de problemas e suas classes
 
-| Problema | Classe                                       | Descrição                                                                      |
-|--------|----------------------------------------------|--------------------------------------------------------------------------------|
-| Problema 1 | [LeetCode1.java](src/LeetCode1.java)         | Two Sum                                                                        |
-| Problema 11 | [LeetCode11.java](src/LeetCode11.java)       | Container With Most Water                                                      |
-| Problema 13 | [LeetCode13.java](src/LeetCode13.java)       | Roman to Integer                                                               |
-| Problema 14 | [LeetCode14.java](src/LeetCode14.java)       | Longest Common Prefix                                                          |
-| Problema 15 | [LeetCode15.java](src/LeetCode15.java)       | 3Sum                                                                           |
-| Problema 16 | [LeetCode16.java](src/LeetCode16.java)       | 3Sum Closest                                                                   |
-| Problema 20 | [LeetCode20.java](src/LeetCode20.java)       | Valid Parentheses                                                              |
-| Problema 26 | [LeetCode26.java](src/LeetCode26.java)       | Remove Duplicates from Sorted Array                                            |
-| Problema 26 | [LeetCode26_2.java](src/LeetCode26_2.java)   | Remove Duplicates from Sorted Array (versão com listas simplesmente conectada) |
-| Problema 27 | [LeetCode27.java](src/LeetCode27.java)       | Remove Element                                                                 |
-| Problema 28 | [LeetCode28.java](src/LeetCode28.java)       | Find the Index of the First Occurrence in a String                             |
-| Problema 33 | [LeetCode33.java](src/LeetCode33.java)       | Search in Rotated Sorted Array                                                 |
-| Problema 34 | [LeetCode34.java](src/LeetCode34.java)       | Find First and Last Position of Element in Sorted Array (maracutaia)           |
-| Problema 36 | [LeetCode36.java](src/LeetCode36.java)       | Valid Sudoku                                                                   |
-| Problema 45 | [LeetCode45.java](src/LeetCode45.java)       | Jump Game II - solução com grafo não direcionados + DFS                        |
-| Problema 45 | [LeetCode45_2.java](src/LeetCode45_2.java)   | Jump Game II - solução ideal                                                   |
-| Problema 45 | [LeetCode45_3.java](src/LeetCode45_3.java)   | Jump Game II - solução com grafo direcionado + DFS                             |
-| Problema 45 | [LeetCode45_4.java](src/LeetCode45_4.java)   | Jump Game II - solução com grafo direcionado + BFS (ideal?)                    |
-| Problema 49 | [LeetCode49.java](src/LeetCode49.java)       | Group Anagrams                                                                 |
-| Problema 53 | [LeetCode53.java](src/LeetCode53.java)       | Maximum Subarray                                                               |
-| Problema 54 | [LeetCode54.java](src/LeetCode54.java)       | Spiral Matrix                                                                  |
-| Problema 58 | [LeetCode58.java](src/LeetCode58.java)       | Length of Last Word                                                            |
-| Problema 67 | [LeetCode67.java](src/LeetCode67.java)       | Add Binary                                                                     |
-| Problema 69 | [LeetCode69.java](src/LeetCode69.java)       | Sqrt(x)                                                                        |
-| Problema 81 | [LeetCode81.java](src/LeetCode81.java)       | Search in Rotated Sorted Array II                                              |
-| Problema 88 | [LeetCode88.java](src/LeetCode88.java)       | Merge Sorted Array                                                             |
-| Problema 88 | [LeetCode88_2.java](src/LeetCode88_2.java)   | Merge Sorted Array (melhor)                                                    |
-| Problema 94 | [LeetCode94.java](src/LeetCode94.java)       | Binary Tree Inorder Traversal                                                  |
-| Problema 100 | [LeetCode100.java](src/LeetCode100.java)     | Same Tree                                                                      |
-| Problema 101 | [LeetCode101.java](src/LeetCode101.java)     | Symmetric Tree                                                                 |
-| Problema 104 | [LeetCode104.java](src/LeetCode104.java)     | Maximum Depth Of Binary Tree                                                   |                       
-| Problema 108 | [LeetCode108.java](src/LeetCode108.java)     | Convert Sorted Array To Binary Search Tree                                     |                    
-| Problema 110 | [LeetCode110.java](src/LeetCode110.java)     | Balanced Binary Tree                                                           |                  
-| Problema 111 | [LeetCode111.java](src/LeetCode111.java)     | Minimum Depth of Binary Tree                                                   |
-| Problema 112 | [LeetCode112.java](src/LeetCode112.java)     | Path Sum                                                                       |
-| Problema 118 | [LeetCode118.java](src/LeetCode118.java)     | Pascal's Triangle                                                              |
-| Problema 119 | [LeetCode119.java](src/LeetCode119.java)     | Pascal's Triangle II                                                           |
-| Problema 121 | [LeetCode121.java](src/LeetCode121.java)     | Best Time to Buy and Sell Stock                                                |
-| Problema 121 | [LeetCode121_2.java](src/LeetCode121_2.java) | Best Time to Buy and Sell Stock (ideal)                                        |                                                                                                             |
-| Problema 128 | [LeetCode128.java](src/LeetCode128.java)     | Longest Consecutive Sequence                                                   |
-| Problema 136 | [LeetCode136.java](src/LeetCode136.java)     | Single Number                                                                  |
-| Problema 144 | [LeetCode144.java](src/LeetCode144.java)     | Binary Tree Preorder Traversal                                                 |
-| Problema 145 | [LeetCode145.java](src/LeetCode145.java)     | Binary Tree Postorder Traversal                                                |
-| Problema 150 | [LeetCode150.java](src/LeetCode150.java)     | Evaluate Reverse Polish Notation                                               |
-| Problema 155 | [LeetCode155.java](src/LeetCode155.java)     | Min Stack                                                                      |
-| Problema 167 | [LeetCode167.java](src/LeetCode167.java)     | Two Sum II - Input Array Is Sorted                                             |
-| Problema 169 | [LeetCode169.java](src/LeetCode169.java)     | Majority Element                                                               |
-| Problema 169 | [LeetCode169_2.java](src/LeetCode169_2.java) | Majority Element (                                 ideal)                      |                                                                                                         |
-| Problema 172 | [LeetCode172.java](src/LeetCode172.java)     | Factorial Trailing Zeroes                                                      |
-| Problema 189 | [LeetCode189.java](src/LeetCode189.java)     | Rotate Array                                                                   |
-| Problema 207 | [LeetCode207.java](src/LeetCode207.java)     | Course Schedule                                                                |
-| Problema 210 | [LeetCode210.java](src/LeetCode210.java)     | Course Schedule II                                                             |
-| Problema 217 | [LeetCode217.java](src/LeetCode217.java)     | Contains Duplicate                                                             |
-| Problema 226 | [LeetCode226.java](src/LeetCode226.java)     | Invert Binary Tree                                                             |
-| Problema 238 | [LeetCode238.java](src/LeetCode238.java)     | Product of Array Except Self                                                   |
-| Problema 242 | [LeetCode242.java](src/LeetCode242.java)     | Valid Anagram                                                                  |
-| Problema 263 | [LeetCode263.java](src/LeetCode263.java)     | Ugly Number                                                                    |
-| Problema 264 | [LeetCode264.java](src/LeetCode264.java)     | Ugly Number II                                                                 |
-| Problema 274 | [LeetCode274.java](src/LeetCode274.java)     | H-Index                                                                        |
-| Problema 313 | [LeetCode313.java](src/LeetCode313.java)     | Super Ugly Number                                                              |
-| Problema 342 | [LeetCode342.java](src/LeetCode342.java)     | Power of Four                                                                  |
-| Problema 347 | [LeetCode347.java](src/LeetCode347.java)     | Top K Frequent Elements                                                        |
-| Problema 380 | [LeetCode380.java](src/LeetCode380.java)     | Insert Delete GetRandom(                        1)                             |                                              |                                                                                |
-| Problema 392 | [LeetCode392.java](src/LeetCode392.java)     | Is Subsequence                                                                 |
-| Problema 653 | [LeetCode653.java](src/LeetCode653.java)     | Two Sum IV - Input is a BST                                                    |
-| Problema 658 | [LeetCode658.java](src/LeetCode658.java)     | Find K Closest Elements                                                        |
-| Problema 738 | [LeetCode738.java](src/LeetCode738.java)     | Monotone Increasing Digits                                                     |
-| Problema 785 | [LeetCode785.java](src/LeetCode785.java)     | Is Graph Bipartite?                                                            |
-| Problema 965 | [LeetCode965.java](src/LeetCode965.java)     | Univalued Binary Tree                                                          |
-| Problema 997 | [LeetCode997.java](src/LeetCode997.java)     | Find the Town Judge                                                            |
+| Problema      | Classe                                       | Descrição                                                                      |
+|---------------|----------------------------------------------|--------------------------------------------------------------------------------|
+| Problema 1    | [LeetCode1.java](src/LeetCode1.java)         | Two Sum                                                                        |
+| Problema 11   | [LeetCode11.java](src/LeetCode11.java)       | Container With Most Water                                                      |
+| Problema 13   | [LeetCode13.java](src/LeetCode13.java)       | Roman to Integer                                                               |
+| Problema 14   | [LeetCode14.java](src/LeetCode14.java)       | Longest Common Prefix                                                          |
+| Problema 15   | [LeetCode15.java](src/LeetCode15.java)       | 3Sum                                                                           |
+| Problema 16   | [LeetCode16.java](src/LeetCode16.java)       | 3Sum Closest                                                                   |
+| Problema 20   | [LeetCode20.java](src/LeetCode20.java)       | Valid Parentheses                                                              |
+| Problema 26   | [LeetCode26.java](src/LeetCode26.java)       | Remove Duplicates from Sorted Array                                            |
+| Problema 26   | [LeetCode26_2.java](src/LeetCode26_2.java)   | Remove Duplicates from Sorted Array (versão com listas simplesmente conectada) |
+| Problema 27   | [LeetCode27.java](src/LeetCode27.java)       | Remove Element                                                                 |
+| Problema 28   | [LeetCode28.java](src/LeetCode28.java)       | Find the Index of the First Occurrence in a String                             |
+| Problema 33   | [LeetCode33.java](src/LeetCode33.java)       | Search in Rotated Sorted Array                                                 |
+| Problema 34   | [LeetCode34.java](src/LeetCode34.java)       | Find First and Last Position of Element in Sorted Array (maracutaia)           |
+| Problema 36   | [LeetCode36.java](src/LeetCode36.java)       | Valid Sudoku                                                                   |
+| Problema 45   | [LeetCode45.java](src/LeetCode45.java)       | Jump Game II - solução com grafo não direcionados + DFS                        |
+| Problema 45   | [LeetCode45_2.java](src/LeetCode45_2.java)   | Jump Game II - solução ideal                                                   |
+| Problema 45   | [LeetCode45_3.java](src/LeetCode45_3.java)   | Jump Game II - solução com grafo direcionado + DFS                             |
+| Problema 45   | [LeetCode45_4.java](src/LeetCode45_4.java)   | Jump Game II - solução com grafo direcionado + BFS (ideal?)                    |
+| Problema 49   | [LeetCode49.java](src/LeetCode49.java)       | Group Anagrams                                                                 |
+| Problema 53   | [LeetCode53.java](src/LeetCode53.java)       | Maximum Subarray                                                               |
+| Problema 54   | [LeetCode54.java](src/LeetCode54.java)       | Spiral Matrix                                                                  |
+| Problema 58   | [LeetCode58.java](src/LeetCode58.java)       | Length of Last Word                                                            |
+| Problema 67   | [LeetCode67.java](src/LeetCode67.java)       | Add Binary                                                                     |
+| Problema 69   | [LeetCode69.java](src/LeetCode69.java)       | Sqrt(x)                                                                        |
+| Problema 81   | [LeetCode81.java](src/LeetCode81.java)       | Search in Rotated Sorted Array II                                              |
+| Problema 88   | [LeetCode88.java](src/LeetCode88.java)       | Merge Sorted Array                                                             |
+| Problema 88   | [LeetCode88_2.java](src/LeetCode88_2.java)   | Merge Sorted Array (melhor)                                                    |
+| Problema 94   | [LeetCode94.java](src/LeetCode94.java)       | Binary Tree Inorder Traversal                                                  |
+| Problema 100  | [LeetCode100.java](src/LeetCode100.java)     | Same Tree                                                                      |
+| Problema 101  | [LeetCode101.java](src/LeetCode101.java)     | Symmetric Tree                                                                 |
+| Problema 104  | [LeetCode104.java](src/LeetCode104.java)     | Maximum Depth Of Binary Tree                                                   |                       
+| Problema 108  | [LeetCode108.java](src/LeetCode108.java)     | Convert Sorted Array To Binary Search Tree                                     |                    
+| Problema 110  | [LeetCode110.java](src/LeetCode110.java)     | Balanced Binary Tree                                                           |                  
+| Problema 111  | [LeetCode111.java](src/LeetCode111.java)     | Minimum Depth of Binary Tree                                                   |
+| Problema 118  | [LeetCode118.java](src/LeetCode118.java)     | Pascal's Triangle                                                              |
+| Problema 119  | [LeetCode119.java](src/LeetCode119.java)     | Pascal's Triangle II                                                           |
+| Problema 121  | [LeetCode121.java](src/LeetCode121.java)     | Best Time to Buy and Sell Stock                                                |
+| Problema 121  | [LeetCode121_2.java](src/LeetCode121_2.java) | Best Time to Buy and Sell Stock (                                              
+ ideal)        |
+| Problema 128  | [LeetCode128.java](src/LeetCode128.java)     | Longest Consecutive Sequence                                                   |
+| Problema 136  | [LeetCode136.java](src/LeetCode136.java)     | Single Number                                                                  |
+| Problema 144  | [LeetCode144.java](src/LeetCode144.java)     | Binary Tree Preorder Traversal                                                 |
+| Problema 145  | [LeetCode145.java](src/LeetCode145.java)     | Binary Tree Postorder Traversal                                                |
+| Problema 150  | [LeetCode150.java](src/LeetCode150.java)     | Evaluate Reverse Polish Notation                                               |
+| Problema 155  | [LeetCode155.java](src/LeetCode155.java)     | Min Stack                                                                      |
+| Problema 167  | [LeetCode167.java](src/LeetCode167.java)     | Two Sum II - Input Array Is Sorted                                             |
+| Problema 169  | [LeetCode169.java](src/LeetCode169.java)     | Majority Element                                                               |
+| Problema 169  | [LeetCode169_2.java](src/LeetCode169_2.java) | Majority Element (                                                             
+ ideal)        |
+| Problema 172  | [LeetCode172.java](src/LeetCode172.java)     | Factorial Trailing Zeroes                                                      |
+| Problema 189  | [LeetCode189.java](src/LeetCode189.java)     | Rotate Array                                                                   |
+| Problema 207  | [LeetCode207.java](src/LeetCode207.java)     | Course Schedule                                                                |
+| Problema 210  | [LeetCode210.java](src/LeetCode210.java)     | Course Schedule II                                                             |
+| Problema 217  | [LeetCode217.java](src/LeetCode217.java)     | Contains Duplicate                                                             |
+| Problema 238  | [LeetCode238.java](src/LeetCode238.java)     | Product of Array Except Self                                                   |
+| Problema 242  | [LeetCode242.java](src/LeetCode242.java)     | Valid Anagram                                                                  |
+| Problema 263  | [LeetCode263.java](src/LeetCode263.java)     | Ugly Number                                                                    |
+| Problema 264  | [LeetCode264.java](src/LeetCode264.java)     | Ugly Number II                                                                 |
+| Problema 274  | [LeetCode274.java](src/LeetCode274.java)     | H-Index                                                                        |
+| Problema 313  | [LeetCode313.java](src/LeetCode313.java)     | Super Ugly Number                                                              |
+| Problema 342  | [LeetCode342.java](src/LeetCode342.java)     | Power of Four                                                                  |
+| Problema 347  | [LeetCode347.java](src/LeetCode347.java)     | Top K Frequent Elements                                                        |
+| Problema 380  | [LeetCode380.java](src/LeetCode380.java)     | Insert Delete GetRandom(                                                       
+ 1)            |
+| Problema 392  | [LeetCode392.java](src/LeetCode392.java)     | Is Subsequence                                                                 |
+| Problema 658  | [LeetCode658.java](src/LeetCode658.java)     | Find K Closest Elements                                                        |
+| Problema 738  | [LeetCode738.java](src/LeetCode738.java)     | Monotone Increasing Digits                                                     |
+| Problema 785  | [LeetCode785.java](src/LeetCode785.java)     | Is Graph Bipartite?                                                            |
+| Problema 997  | [LeetCode997.java](src/LeetCode997.java)     | Find the Town Judge                                                            |
 | Problema 1791 | [LeetCode1791.java](src/LeetCode1791.java)   | Find Center of Star Graph                                                      |
 | Problema 1971 | [LeetCode1971.java](src/LeetCode1971.java)   | Find if Path Exists in Graph                                                   |
