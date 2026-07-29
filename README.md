@@ -37,6 +37,7 @@ Autoria própria [dos problemas]
 | Problema 53   | [LeetCode53.java](src/LeetCode53.java)       | Maximum Subarray                                                               |
 | Problema 54   | [LeetCode54.java](src/LeetCode54.java)       | Spiral Matrix                                                                  |
 | Problema 58   | [LeetCode58.java](src/LeetCode58.java)       | Length of Last Word                                                            |
+| Problema 64   | [LeetCode64.java](src/LeetCode64.java)       | Minimum Path Sum                                                               |
 | Problema 67   | [LeetCode67.java](src/LeetCode67.java)       | Add Binary                                                                     |
 | Problema 69   | [LeetCode69.java](src/LeetCode69.java)       | Sqrt(x)                                                                        |
 | Problema 81   | [LeetCode81.java](src/LeetCode81.java)       | Search in Rotated Sorted Array II                                              |
