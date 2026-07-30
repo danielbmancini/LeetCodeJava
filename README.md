@@ -67,10 +67,12 @@ Autoria própria [dos problemas]
 | Problema 169  | [LeetCode169_2.java](src/LeetCode169_2.java) | Majority Element                                                   ideal       |
 | Problema 172  | [LeetCode172.java](src/LeetCode172.java)     | Factorial Trailing Zeroes                                                      |
 | Problema 189  | [LeetCode189.java](src/LeetCode189.java)     | Rotate Array                                                                   |
+| Problema 190  | [LeetCode190.java](src/LeetCode190.java)     | Reverse Bits                                                                   |
 | Problema 207  | [LeetCode207.java](src/LeetCode207.java)     | Course Schedule                                                                |
 | Problema 210  | [LeetCode210.java](src/LeetCode210.java)     | Course Schedule II                                                             |
 | Problema 217  | [LeetCode217.java](src/LeetCode217.java)     | Contains Duplicate                                                             |
 | Problema 226  | [LeetCode226.java](src/LeetCode226.java)     | Invert Binary Tree                                                             |
+| Problema 231  | [LeetCode231.java](src/LeetCode231.java)     | Power of Two                                                                   |
 | Problema 238  | [LeetCode238.java](src/LeetCode238.java)     | Product of Array Except Self                                                   |
 | Problema 242  | [LeetCode242.java](src/LeetCode242.java)     | Valid Anagram                                                                  |
 | Problema 257  | [LeetCode257.java](src/LeetCode257.java)     | Binary Tree Paths                                                              |
@@ -82,6 +84,7 @@ Autoria própria [dos problemas]
 | Problema 347  | [LeetCode347.java](src/LeetCode347.java)     | Top K Frequent Elements                                                        |
 | Problema 380  | [LeetCode380.java](src/LeetCode380.java)     | Insert Delete GetRandom                                         1              |
 | Problema 392  | [LeetCode392.java](src/LeetCode392.java)     | Is Subsequence                                                                 |
+| Problema 398  | [LeetCode398.java](src/LeetCode398.java)     | Random Pick Index                                                              |
 | Problema 404  | [LeetCode404.java](src/LeetCode404.java)     | Sum of Left Leaves                                                             | 
 | Problema 653  | [LeetCode653.java](src/LeetCode653.java)     | Two Sum IV - Input is a BST                                                    |
 | Problema 658  | [LeetCode658.java](src/LeetCode658.java)     | Find K Closest Elements                                                        |
