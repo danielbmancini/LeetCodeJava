@@ -20,6 +20,7 @@ Autoria própria [dos problemas]
 | Problema 14   | [LeetCode14.java](src/LeetCode14.java)       | Longest Common Prefix                                                          |
 | Problema 15   | [LeetCode15.java](src/LeetCode15.java)       | 3Sum                                                                           |
 | Problema 16   | [LeetCode16.java](src/LeetCode16.java)       | 3Sum Closest                                                                   |
+| Problema 18   | [LeetCode18.java](src/LeetCode18.java)       | 4Sum                                                                           |
 | Problema 20   | [LeetCode20.java](src/LeetCode20.java)       | Valid Parentheses                                                              |
 | Problema 26   | [LeetCode26.java](src/LeetCode26.java)       | Remove Duplicates from Sorted Array                                            |
 | Problema 26   | [LeetCode26_2.java](src/LeetCode26_2.java)   | Remove Duplicates from Sorted Array (versão com listas simplesmente conectada) |
@@ -32,6 +33,7 @@ Autoria própria [dos problemas]
 | Problema 45   | [LeetCode45_2.java](src/LeetCode45_2.java)   | Jump Game II - solução ideal                                                   |
 | Problema 45   | [LeetCode45_3.java](src/LeetCode45_3.java)   | Jump Game II - solução com grafo direcionado + DFS                             |
 | Problema 45   | [LeetCode45_4.java](src/LeetCode45_4.java)   | Jump Game II - solução com grafo direcionado + BFS (ideal?)                    |
+| Problema 46   | [LeetCode46.java](src/LeetCode46.java)       | Permutations                                                                   |
 | Problema 49   | [LeetCode49.java](src/LeetCode49.java)       | Group Anagrams                                                                 |
 | Problema 50   | [LeetCode50.java](src/LeetCode50.java)       | Pow(x, n)                                                                      |
 | Problema 53   | [LeetCode53.java](src/LeetCode53.java)       | Maximum Subarray                                                               |
